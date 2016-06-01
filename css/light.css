@@ -1,0 +1,158 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700);
+
+/* 페이지가 화면에 꽉 차도록 높이를 조정합니다. */
+
+html, body {
+    height: 100%;
+}
+
+/*
+ * 반투명한 배경 이미지를 추가합니다.
+ * 이미지 파일은 디미고 공홈에서 가져옵니다.
+ */
+
+body {
+    font-family: 'Noto Sans KR', sans-serif !important;
+
+    background-image: url("../images/dimigo-background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* 페이지 최대 너비를 설정합니다. */
+
+main {
+    max-width: 512px;
+}
+
+/* 페이지 헤더 스타일을 설정합니다. */
+
+#header {
+    background-color: white;
+
+    padding-top: 16px;
+    padding-bottom: 16px;
+
+    margin-bottom: 16px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* 디미고 로고 우측에 여백을 넣습니다. */
+
+#header .dimigoin-logo img {
+    margin-right: 10px;
+}
+
+#header nav a {
+    color: #555;
+    font-weight: bold;
+}
+
+/* 패널 커스텀 스타일을 설정합니다. */
+
+.panel {
+    width: 512px;
+
+    border: 1px solid #ddd;
+    border-radius: 5px;
+
+    padding: 8px 16px;
+    box-shadow: none;
+}
+
+.panel > .title {
+    display: flex;
+    margin-bottom: 20px;
+
+    font-size: 64px;
+    line-height: 64px;
+    font-family: 'Ubuntu', sans-serif !important;
+}
+
+.panel > .title .main {
+    font-weight: 700;
+}
+
+.panel > .title .sub {
+    font-weight: 300;
+}
+
+/* 계정 창 메뉴 스타일을 설정합니다 */
+
+#profile {
+  margin: 0 auto;
+  padding: 0px;
+}
+
+#profile .title {
+  background-color: #e3e3e3;
+}
+
+#profile .img-circle {
+    height: 0.75em;
+    margin: 10px;
+}
+
+#profile
+
+/* 공지 패널 스타일을 설정합니다 */
+
+#announce {
+    font-size: 16px;
+    line-height: 15px;
+}
+
+#announce .img-circle {
+    height: 4em;
+    margin-right: 10px;
+}
+
+#announce table {
+    width: 100%;
+}
+
+#announce .title, .date {
+    margin-top: 5px;
+}
+
+#announce .title {
+    float: left;
+}
+
+#announce .date {
+    float: right;
+}
+
+#announce .content, .date {
+    color: #aaa;
+    font-size: 14px;
+}
+
+/* 급식 정보를 설정합니다. */
+
+#meals {
+    padding: 16px 32px 32px 32px;
+}
+
+#meals table {
+    padding: 100px;
+    width: 100%;
+}
+
+#meals table tr {
+    border-left: 5px solid #FF4789;
+    border-right: 2px solid #ddd;
+}
+
+#meals table tr td {
+    line-height: 14px;
+    font-size: 14px;
+
+    padding: 8px 16px;
+    border-top: 2px solid #ddd;
+}
+
+#meals table tr td:last-of-type {
+    border-bottom: 2px solid #ddd;
+}
