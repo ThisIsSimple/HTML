@@ -58,100 +58,47 @@ nav .menu-bar li {
   magin: 0; padding: 0;
 }
 
-.slide {
-  width: 100%;
-}
+.slide { width: 100%; }
+.slide.active { min-height: 847px; }
 
-.slide.active {
-  min-height: 847px;
-}
-
-li#slide-1.active {
-  background: url("slide_1.png") no-repeat bottom; background-size: cover;
-}
-
-li#slide-2.active {
-  background: url("slide_2.jpg") no-repeat bottom; background-size: cover;
-}
-
-li#slide-3.active {
-  background: url("slide_3.jpg") no-repeat bottom; background-size: cover;
-}
+li#slide-1.active { background: url("slide_1.png") no-repeat bottom; background-size: cover; }
+li#slide-2.active { background: url("slide_2.jpg") no-repeat bottom; background-size: cover; }
+li#slide-3.active { background: url("slide_3.jpg") no-repeat bottom; background-size: cover; }
 
 @media screen and (max-width:1260px) {
 
-  .slide.active {
-    min-height: 706px;
-  }
+  .slide.active { min-height: 706px; }
 
-  li#slide-1.active {
-    background: url("slide_1.png") no-repeat bottom; background-size: cover;
-  }
-
-  li#slide-2.active {
-    background: url("slide_2.jpg") no-repeat bottom; background-size: cover;
-  }
-
-  li#slide-3.active {
-    background: url("slide_3.jpg") no-repeat bottom; background-size: cover;
-  }
+  li#slide-1.active { background: url("slide_1.png") no-repeat bottom; background-size: cover; }
+  li#slide-2.active { background: url("slide_2.jpg") no-repeat bottom; background-size: cover; }
+  li#slide-3.active { background: url("slide_3.jpg") no-repeat bottom; background-size: cover; }
 }
 
 @media screen and (max-width:1015px) {
 
-  .slide.active {
-    min-height: 499px;
-  }
+  .slide.active { min-height: 499px; }
 
-  li#slide-1.active {
-    background: url("slide_1.png") no-repeat bottom; background-size: cover;
-  }
-
-  li#slide-2.active {
-    background: url("slide_2.jpg") no-repeat bottom; background-size: cover;
-  }
-
-  li#slide-3.active {
-    background: url("slide_3.jpg") no-repeat bottom; background-size: cover;
-  }
+  li#slide-1.active { background: url("slide_1.png") no-repeat bottom; background-size: cover; }
+  li#slide-2.active { background: url("slide_2.jpg") no-repeat bottom; background-size: cover; }
+  li#slide-3.active { background: url("slide_3.jpg") no-repeat bottom; background-size: cover; }
 }
 
 @media screen and (max-width:758px) {
 
-  .slide.active {
-    min-height: 520px;
-  }
+  .slide.active { min-height: 520px; }
 
-  li#slide-1.active {
-    background: url("slide_1.png") no-repeat bottom; background-size: cover;
-  }
-
-  li#slide-2.active {
-    background: url("slide_2.jpg") no-repeat bottom; background-size: cover;
-  }
-
-  li#slide-3.active {
-    background: url("slide_3.jpg") no-repeat bottom; background-size: cover;
-  }
+  li#slide-1.active { background: url("slide_1.png") no-repeat bottom; background-size: cover; }
+  li#slide-2.active { background: url("slide_2.jpg") no-repeat bottom; background-size: cover; }
+  li#slide-3.active { background: url("slide_3.jpg") no-repeat bottom; background-size: cover; }
 }
 
 @media screen and (max-width:640px) {
 
-  .slide.active {
-    min-height: 366px;
-  }
+  .slide.active { min-height: 366px; }
 
-  li#slide-1.active {
-    background: url("slide_1.png") no-repeat bottom; background-size: cover;
-  }
-
-  li#slide-2.active {
-    background: url("slide_2.jpg") no-repeat bottom; background-size: cover;
-  }
-
-  li#slide-3.active {
-    background: url("slide_3.jpg") no-repeat bottom; background-size: cover;
-  }
+  li#slide-1.active { background: url("slide_1.png") no-repeat bottom; background-size: cover; }
+  li#slide-2.active { background: url("slide_2.jpg") no-repeat bottom; background-size: cover; }
+  li#slide-3.active { background: url("slide_3.jpg") no-repeat bottom; background-size: cover; }
 }
 
 /* main의 스타일을 지정합니다. */
