@@ -48,10 +48,6 @@ main {
   font-weight: bold;
 }
 
-nav .menu-bar li {
-  display: inline-block;
-}
-
 /* background 변경 관련 설정 */
 
 .background ul {
