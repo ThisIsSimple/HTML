@@ -1,0 +1,160 @@
+/* 기본적인 것들의 스타일을 지정합니다. */
+
+html {
+  background-color: #ddd;
+}
+
+main {
+  background-color: #ddd;
+}
+
+.panel {
+  background-color: #fff;
+  border-radius: 0px;
+  margin-bottom: 0px;
+  min-height: 500px;
+}
+
+.panel > .board {
+
+}
+
+/* 헤더의 스타일을 지정합니다. */
+
+#header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
+#header hr {
+  margin: 0px;
+  margin-top: -1px;
+  height: 2px;
+  background-color: #fb007f;
+}
+
+.dimigoin-logo img {
+  margin-right: 10px;
+}
+
+.nav-head {
+  padding: 15px;
+}
+
+.nav-head a {
+  color: #c4c4c4;
+  font-weight: bold;
+}
+
+/* background 변경 관련 설정 */
+
+.background ul {
+  magin: 0; padding: 0;
+}
+
+.slide {
+  width: 100%;
+}
+
+.slide.active {
+  min-height: 847px;
+}
+
+li#slide-1.active {
+  background: url("slide_1.png") no-repeat bottom; background-size: cover;
+}
+
+li#slide-2.active {
+  background: url("slide_2.jpg") no-repeat bottom; background-size: cover;
+}
+
+li#slide-3.active {
+  background: url("slide_3.jpg") no-repeat bottom; background-size: cover;
+}
+
+@media screen and (max-width:1260px) {
+
+  .slide.active {
+    min-height: 706px;
+  }
+
+  li#slide-1.active {
+    background: url("slide_1.png") no-repeat bottom; background-size: cover;
+  }
+
+  li#slide-2.active {
+    background: url("slide_2.jpg") no-repeat bottom; background-size: cover;
+  }
+
+  li#slide-3.active {
+    background: url("slide_3.jpg") no-repeat bottom; background-size: cover;
+  }
+}
+
+@media screen and (max-width:1015px) {
+
+  .slide.active {
+    min-height: 499px;
+  }
+
+  li#slide-1.active {
+    background: url("slide_1.png") no-repeat bottom; background-size: cover;
+  }
+
+  li#slide-2.active {
+    background: url("slide_2.jpg") no-repeat bottom; background-size: cover;
+  }
+
+  li#slide-3.active {
+    background: url("slide_3.jpg") no-repeat bottom; background-size: cover;
+  }
+}
+
+@media screen and (max-width:758px) {
+
+  .slide.active {
+    min-height: 520px;
+  }
+
+  li#slide-1.active {
+    background: url("slide_1.png") no-repeat bottom; background-size: cover;
+  }
+
+  li#slide-2.active {
+    background: url("slide_2.jpg") no-repeat bottom; background-size: cover;
+  }
+
+  li#slide-3.active {
+    background: url("slide_3.jpg") no-repeat bottom; background-size: cover;
+  }
+}
+
+@media screen and (max-width:640px) {
+
+  .slide.active {
+    min-height: 366px;
+  }
+
+  li#slide-1.active {
+    background: url("slide_1.png") no-repeat bottom; background-size: cover;
+  }
+
+  li#slide-2.active {
+    background: url("slide_2.jpg") no-repeat bottom; background-size: cover;
+  }
+
+  li#slide-3.active {
+    background: url("slide_3.jpg") no-repeat bottom; background-size: cover;
+  }
+}
+
+/* main의 스타일을 지정합니다. */
+
+main li {
+  list-style-type: inline;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}

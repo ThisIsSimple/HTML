@@ -348,6 +348,18 @@ main {
   font-weight: bold;
 }
 
+/* 메뉴 아이콘 크기를 바꿉니다. */
+
+.glyphicon {
+  font-size: 18px;
+  vertical-align: middle;
+}
+
+.material-icons {
+  font-size: 18px;
+  vertical-align: middle;
+}
+
 /* 서비스의 세부적인 스타일 설정입니다 */
 
 .profile-content {
