@@ -112,11 +112,17 @@ li#slide-3.active { background: url("slide_3.jpg") no-repeat bottom; background-
   .nav-text { font-size: 14px; }
 
   table.dimigoin-logo .nav-text { display: none; }
+  .nav-long { display: none; }
 
   table.dimigoin-logo {
     position: relative;
     width: 50%;
   }
+
+  .nav>li, table .nav>li {
+    float: none;
+  }
+  .nav { display:  none; }
 }
 
 @media screen and (max-width:640px) {

@@ -1,23 +1,91 @@
 <!DOCTYPE html>
 <html>
-  <head>
+  <head lang="ko">
     <meta charset="utf-8">
-    <title>test</title>
-    <style type="text/css">
-    body {
-      background-image: url("slide_1.png");
-      background-position: center;
-      background-size: cover;
-      background-repeat: no-repeat;
-    }
-    </style>
-    <script type="text/javascript" src="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link charset="utf-8" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="test.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="test1-1.css" media="screen" title="no title" charset="utf-8">
+
+
+    <script src="https://code.jquery.com/jquery-3.0.0.min.js" integrity="sha256-JmvOoLtYsmqlsWxa7mDSLMwa6dZ9rrIdtrrVYRnDRH0=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.11.1/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="test3.js"></script>
 
     </script>
+
+    <title>디미고인</title>
   </head>
+
   <body>
-    <div class="back">
+
+    <ul class="navigation nav-short">
+      <li class="nav-item"><a href="#" class="active">홈</a></li>
+      <li class="nav-item"><a href="#">신청</a></li>
+      <li class="nav-item"><a href="#">커뮤니티</a></li>
+      <li class="nav-item"><a href="#">기숙사</a></li>
+      <li class="nav-item"><a href="#">서비스</a></li>
+    </ul>
+
+    <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+    <label for="nav-trigger"></label>
+
+<div class="site-wrap">
+
+  <div id="header">
+
+    <hr>
+
+            <div class="nav-head">
+
+              <div class="container">
+
+                <nav>
+                    <ul class="nav" style="float: right; display: table;">
+                        <li role="presentation"><a href="#">회원가입</a></li>
+                        <li role=""><a href="#">도움말</a></li>
+                    </ul>
+                </nav>
+
+                <table class="dimigoin-logo">
+                  <tbody>
+                      <tr>
+                          <td class="nav-img"><img style="posision: relative; left: 15px;" src="Dimigoin/images/dimigo-logo.png" alt="DIMIGOIN"></img></td>
+                          <td class="nav-text"><strong>한국디지털미디어고등학교</strong><br>교내 인트라넷 서비스</td>
+                          <td class="nav-long"><ul class="nav" style="float: left;">
+                            <li  ><a href="#">홈</a></li>
+                            <li  ><a href="#">신청</a></li>
+                            <li  ><a href="#">커뮤니티</a></li>
+                            <li  ><a href="#">기숙사</a></li>
+                            <li  ><a href="#">서비스</a></li>
+                          </ul>
+                        </td>
+                      </tr>
+                  </tbody>
+                </table>
+
+
+
+              </div>
+            </div>
 
     </div>
+
+    <main>
+
+      <div class="main_silde">
+        <div class="background">
+          <ul>
+            <li class="slide" id="slide-1"></li>
+            <li class="slide" id="slide-2"></li>
+            <li class="slide" id="slide-3"></li>
+          </ul>
+        </div>
+      </div>
+
+    </main>
+  </div>
+
   </body>
 </html>
