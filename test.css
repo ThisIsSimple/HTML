@@ -12,7 +12,7 @@ html { background-color: #ddd; }
 
 .nav-mobile {
   position: fixed;
-  left: 0;
+  left: -200px;
   top: 0;
   width: 200px;
   height: 100%;
@@ -22,13 +22,13 @@ html { background-color: #ddd; }
 
 .menu-back {
   position: fixed;
-  right: 0;
   top: 0;
+  right: 0;
   width: 100%;
   height: 100%;
   float: right;
   background-color: black;
-  opacity: 0.5;
+  opacity: 0;
   z-index: 1;
 }
 
@@ -72,7 +72,7 @@ nav a {
   font-weight: normal;
 }
 
-.nav>li a.active{
+.nav>li a.active {
   border-bottom: 3px solid #fb007f;
   font-weight: bold;
   color: #000;
@@ -95,6 +95,12 @@ nav a {
 li#slide-1.active { background: url("slide_1.png") no-repeat bottom; background-size: cover; }
 li#slide-2.active { background: url("slide_2.jpg") no-repeat bottom; background-size: cover; }
 li#slide-3.active { background: url("slide_3.jpg") no-repeat bottom; background-size: cover; }
+
+@media screen and (min-width: 758px) {
+  .mobile-button {
+    display: none;
+  }
+}
 
 @media screen and (max-width:1260px) {
 
@@ -126,12 +132,7 @@ li#slide-3.active { background: url("slide_3.jpg") no-repeat bottom; background-
 
   .nav-text { font-size: 14px; }
 
-  table.dimigoin-logo .nav-text { display: none; }
-
-  table.dimigoin-logo {
-    position: relative;
-    width: 50%;
-  }
+  table.dimigoin-logo .nav-text, .nav { display: none; }
 }
 
 @media screen and (max-width:640px) {
@@ -150,7 +151,7 @@ li#slide-3.active { background: url("slide_3.jpg") no-repeat bottom; background-
 
 /* main의 스타일을 지정합니다. */
 
-main li {
+html li {
   list-style-type: inline;
   list-style: none;
   margin: 0;
