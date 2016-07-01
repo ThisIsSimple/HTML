@@ -11,7 +11,7 @@ $(document).ready(function(){
   $('.menu-back').click(function(){
     $('.nav-mobile').animate({left: '-200px'}, 'fast')
     $('.menu-back').animate({opacity: '0'}, 'fast');
-    $('.nav-mobile, .menu-back').hide(100);
+    $('.nav-mobile, .menu-back').hide(200);
     a = 0;
   });
 
