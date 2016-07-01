@@ -1,4 +1,4 @@
-/* 기본적인 것들의 스타일을 지정합니다. */
+ㅣㄱ/* 기본적인 것들의 스타일을 지정합니다. */
 
 html { background-color: #ddd; }
 
@@ -125,14 +125,18 @@ li#slide-3.active { background: url("slide_3.jpg") no-repeat bottom; background-
   li#slide-1.active { background: url("slide_1.png") no-repeat bottom; background-size: cover; }
   li#slide-2.active { background: url("slide_2.jpg") no-repeat bottom; background-size: cover; }
   li#slide-3.active { background: url("slide_3.jpg") no-repeat bottom; background-size: cover; }
+
   table.dimigoin-logo .nav-text, .nav { display: none; }
   table.dimigoin-logo .nav-img { position: fixed; left: 0; right: 0; text-align: center; z-index: -1}
-  .nav-img img { margin: 0; }
+  .nav-img img { margin: 0; height: 33px;}
   table.dimigoin-logo .hamburger-icon { width: 49px !important; }
-  .nav-side { padding: 0; }
+  .nav-side { padding: 0; font-size: 12px; text-align: right; }
+  .help, .welcome { display: none; }
+
+  .container { width: 80%; }
 }
 
-@media screen and (min-width: 1015px) { .mobile-button { display: none; } }
+@media screen and (min-width: 1016px) { .mobile-button { display: none; } }
 
 @media screen and (max-width: 758px) {
 
@@ -142,11 +146,7 @@ li#slide-3.active { background: url("slide_3.jpg") no-repeat bottom; background-
   li#slide-2.active { background: url("slide_2.jpg") no-repeat bottom; background-size: cover; }
   li#slide-3.active { background: url("slide_3.jpg") no-repeat bottom; background-size: cover; }
 
-  table.dimigoin-logo .nav-text, .nav { display: none; }
-  table.dimigoin-logo .nav-img { position: fixed; left: 0; right: 0; text-align: center; z-index: -1}
-  .nav-img img { margin: 0; }
-  table.dimigoin-logo .hamburger-icon { width: 49px !important; }
-  .nav-side { padding: 0; }
+  .container { width: 85%; }
 }
 
 @media screen and (max-width:640px) {
