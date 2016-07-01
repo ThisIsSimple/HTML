@@ -109,8 +109,6 @@ li#slide-1.active { background: url("slide_1.png") no-repeat bottom; background-
 li#slide-2.active { background: url("slide_2.jpg") no-repeat bottom; background-size: cover; }
 li#slide-3.active { background: url("slide_3.jpg") no-repeat bottom; background-size: cover; }
 
-@media screen and (min-width: 758px) { .mobile-button { display: none; } }
-
 @media screen and (max-width:1260px) {
 
   .slide.active { min-height: 706px; }
@@ -127,9 +125,16 @@ li#slide-3.active { background: url("slide_3.jpg") no-repeat bottom; background-
   li#slide-1.active { background: url("slide_1.png") no-repeat bottom; background-size: cover; }
   li#slide-2.active { background: url("slide_2.jpg") no-repeat bottom; background-size: cover; }
   li#slide-3.active { background: url("slide_3.jpg") no-repeat bottom; background-size: cover; }
+  table.dimigoin-logo .nav-text, .nav { display: none; }
+  table.dimigoin-logo .nav-img { position: fixed; left: 0; right: 0; text-align: center; z-index: -1}
+  .nav-img img { margin: 0; }
+  table.dimigoin-logo .hamburger-icon { width: 49px !important; }
+  .nav-side { padding: 0; }
 }
 
-@media screen and (max-width:758px) {
+@media screen and (min-width: 1015px) { .mobile-button { display: none; } }
+
+@media screen and (max-width: 758px) {
 
   .slide.active { min-height: 520px; }
 
