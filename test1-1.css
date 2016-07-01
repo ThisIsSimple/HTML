@@ -11,7 +11,7 @@ html { background-color: #ddd; }
 /* 헤더의 스타일을 지정합니다. */
 
 #header {
-  position: fixed;
+  position: sticky;
   width: 100%;
 }
 
