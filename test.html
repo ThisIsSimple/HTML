@@ -1,86 +1,62 @@
 <!DOCTYPE html>
-<html>
-  <head lang="ko">
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link charset="utf-8" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-    <link charset="utf-8" rel="stylesheet" href="test.css">
+        <title>ChalkPE</title>
 
+        <meta property="og:title" content="ChalkPE">
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="https://chalkpe.github.io">
 
-    <script src="https://code.jquery.com/jquery-3.0.0.min.js" integrity="sha256-JmvOoLtYsmqlsWxa7mDSLMwa6dZ9rrIdtrrVYRnDRH0=" crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/ui/1.11.1/jquery-ui.min.js"></script>
-    <script type="text/javascript" src="test3.js"></script>
-    <script type="text/javascript" src="test.js">
-    </script>
+        <script charset="utf-8" src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
+        <script charset="utf-8" src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.8.1/jquery.fullPage.min.js"></script>
+        <script charset="utf-8" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
 
-    <title>디미고인</title>
-  </head>
+        <link rel="stylesheet" charset="utf-8" href="test.css" media="screen">
+        
+        <link rel="stylesheet" charset="utf-8" href="https://cdn.materialdesignicons.com/1.6.50/css/materialdesignicons.min.css">
+        <link rel="stylesheet" charset="utf-8" href="https://fonts.googleapis.com/css?family=Cabin+Sketch:400,700|Ubuntu:300,400,700">
 
-  <body>
+        <link rel="stylesheet" charset="utf-8" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.8.1/jquery.fullPage.min.css">
+        <link rel="stylesheet" charset="utf-8" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css">
+    </head>
 
-    <div id="header">
+    <body>
+        <a class="btn-floating btn-large waves-effect white" id="scroll-to-top" href="#"><i class="mdi mdi-chevron-double-up black-text"></i></a>
 
-      <hr>
-
+        <div id="fullpage">
+            <div class="section center-align">
+                <h1>ChalkPE</h1>
                 <div class="container">
-
-                  <nav>
-                      <ul class="nav-side" style="float: right;">
-                          <li role="presentation">박수범님<span class="welcome"> 환영합니다.</span></li>
-                          <li class="help" role=""><a href="#">?도움말</a></li>
-                      </ul>
-
-                  <table class="dimigoin-logo">
-                    <tbody>
-                        <tr>
-                            <td class="hamburger-icon"><a href="#" class="mobile-button" style="font-size: 24px; color: rgba(0, 0, 0, 0.7);"><span class="glyphicon glyphicon-menu-hamburger"></span></a></td>
-                            <td class="nav-img"><img src="Dimigoin/images/dimigo-logo.png" alt="DIMIGOIN"></img></td>
-                            <td class="nav-text"><strong>한국디지털미디어고등학교</strong><br>교내 인트라넷 서비스</td>
-                            <td>
-                              <ul class="nav">
-                                <li><a href="#" class="active">홈</a></li>
-                                <li><a href="#">신청</a></li>
-                                <li><a href="#">커뮤니티</a></li>
-                                <li><a href="#">기숙사</a></li>
-                                <li><a href="#">서비스</a></li>
-                              </ul>
-                            </td>
-                        </tr>
-                    </tbody>
-                  </table>
-
-
-                  <ul class="nav-mobile">
-                    <!--<li><hr></li>-->
-                    <li><a href="#">홈</a></li>
-                    <li><a href="#">신청</a></li>
-                    <li><a href="#">커뮤니티</a></li>
-                    <li><a href="#">기숙사</a></li>
-                    <li><a href="#">서비스</a></li>
-                  </ul>
-
-                  <div class="menu-back"><div>
-
-                  </nav>
-
+                    <a href="https://github.com/ChalkPE"><img id="chalk" src="img/chalk-alpha.png" alt="Chalk"></img></a>
                 </div>
+            </div>
 
-      </div>
+            <div class="section center-align">
+                <h1>Dimigo</h1>
+            </div>
 
-    <main>
+            <div class="section center-align">
+                <h1>Profile</h1>
+            </div>
 
-      <div class="main_silde">
-        <div class="background">
-          <ul>
-            <li class="slide" id="slide-1"></li>
-            <li class="slide" id="slide-2"></li>
-            <li class="slide" id="slide-3"></li>
-          </ul>
+            <div class="section center-align">
+                <h1>Contact</h1>
+                <table id="contacts">
+                    <tbody>
+                        <tr><td class="right-align">Email</td>     <td><a class="contact-link" href="mailto:chalkpe@gmail.com">               <i class="mdi mdi-gmail"></i>               chalkpe</a></td></tr>
+                        <tr><td class="right-align">Twitter</td>   <td><a class="contact-link" href="https://twitter.com/amato17">            <i class="mdi mdi-twitter"></i>             amato17</a></td></tr>
+                        <tr><td class="right-align">Facebook</td>  <td><a class="contact-link" href="https://facebook.com/junyoung.park.944"> <i class="mdi mdi-facebook-box"></i>       Junyoung</a></tr></td>
+                        <tr><td class="right-align">Messenger</td> <td><a class="contact-link" href="https://m.me/ChalkPE">                   <i class="mdi mdi-facebook-messenger"></i>  ChalkPE</a></tr></td>
+                        <tr><td class="right-align">Telegram</td>  <td><a class="contact-link" href="https://telegram.me/ChalkPE">            <i class="mdi mdi-telegram"></i>            ChalkPE</a></tr></td>
+                    </tbody>
+                </table>
+            </div>
         </div>
-      </div>
 
-    </main>
-
-  </body>
+        <script charset="utf-8" src="test.js"></script>
+    </body>
 </html>
