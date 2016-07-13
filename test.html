@@ -13,10 +13,12 @@
 
         <script charset="utf-8" src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
         <script charset="utf-8" src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.8.1/jquery.fullPage.min.js"></script>
-        <script charset="utf-8" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
 
         <link rel="stylesheet" charset="utf-8" href="test.css" media="screen">
-        
+        <link rel="stylesheet" href="test3.css" media="screen" title="no title" charset="utf-8">
+        <link charset="utf-8" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+        <script src="test3.js"></script>
+
         <link rel="stylesheet" charset="utf-8" href="https://cdn.materialdesignicons.com/1.6.50/css/materialdesignicons.min.css">
         <link rel="stylesheet" charset="utf-8" href="https://fonts.googleapis.com/css?family=Cabin+Sketch:400,700|Ubuntu:300,400,700">
 
@@ -27,12 +29,65 @@
     <body>
         <a class="btn-floating btn-large waves-effect white" id="scroll-to-top" href="#"><i class="mdi mdi-chevron-double-up black-text"></i></a>
 
+        <div id="header">
+
+          <hr>
+
+                    <div class="container">
+
+                      <nav>
+                          <ul class="nav-side" style="float: right;">
+                              <li role="presentation">박수범님<span class="welcome"><br></span>&nbsp;환영합니다.</li>
+                              <li class="help" role=""><a href="#">?도움말</a></li>
+                          </ul>
+
+                      <table class="dimigoin-logo">
+                        <tbody>
+                            <tr>
+                                <td class="hamburger-icon"><a href="#" class="mobile-button" style="font-size: 24px; color: rgba(0, 0, 0, 0.7);"><span class="glyphicon glyphicon-menu-hamburger"></span></a></td>
+                                <td class="nav-img"><img src="Dimigoin/images/dimigo-logo.png" alt="DIMIGOIN"></img></td>
+                                <td class="nav-text"><strong>한국디지털미디어고등학교</strong><br>교내 인트라넷 서비스</td>
+                                <td>
+                                  <ul class="nav">
+                                    <li><a href="#" class="active">홈</a></li>
+                                    <li><a href="#">신청</a></li>
+                                    <li><a href="#">커뮤니티</a></li>
+                                    <li><a href="#">기숙사</a></li>
+                                    <li><a href="#">서비스</a></li>
+                                  </ul>
+                                </td>
+                            </tr>
+                        </tbody>
+                      </table>
+
+
+                      <ul class="nav-mobile">
+                        <li><a href="#">홈</a></li>
+                        <li><a href="#">신청</a></li>
+                        <li><a href="#">커뮤니티</a></li>
+                        <li><a href="#">기숙사</a></li>
+                        <li><a href="#">서비스</a></li>
+                      </ul>
+
+                      <div class="menu-back"><div>
+
+                      </nav>
+
+                    </div>
+
+          </div>
+
         <div id="fullpage">
             <div class="section center-align">
-                <h1>ChalkPE</h1>
-                <div class="container">
-                    <a href="https://github.com/ChalkPE"><img id="chalk" src="img/chalk-alpha.png" alt="Chalk"></img></a>
+              <div class="main_silde">
+                <div class="background">
+                  <ul>
+                    <li class="slide" id="slide-1"></li>
+                    <li class="slide" id="slide-2"></li>
+                    <li class="slide" id="slide-3"></li>
+                  </ul>
                 </div>
+              </div>
             </div>
 
             <div class="section center-align">

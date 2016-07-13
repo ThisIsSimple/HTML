@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Horizontal navigation dots - fullPage.js</title>
+	<meta name="author" content="Alvaro Trigo Lopez" />
+	<meta name="description" content="fullPage full-screen navigation and sections control menu." />
+	<meta name="keywords"  content="fullpage,jquery,demo,screen,fullscreen,navigation,control arrows, dots" />
+	<meta name="Resource-type" content="Document" />
+
+	<link charset="utf-8" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+	<link rel="stylesheet" type="text/css" href="jquery.fullPage.css" />
+	<link rel="stylesheet" type="text/css" href="examples.css" />
+
+	<link rel="stylesheet" href="../test3.css" media="screen" title="no title" charset="utf-8">
+
+	<style>
+
+	/* Style for our header texts
+	* --------------------------------------- */
+	h1{
+		font-size: 5em;
+		font-family: arial,helvetica;
+		color: #fff;
+		margin:0;
+	}
+	.intro p{
+		color: #fff;
+	}
+
+	/* Centered texts in each section
+	* --------------------------------------- */
+	.section{
+		text-align:center;
+	}
+
+	/* Overwriting styles for control arrows for slides
+	* --------------------------------------- */
+	.controlArrow.prev {
+		left: 50px;
+	}
+	.controlArrow.next{
+		right: 50px;
+	}
+
+
+	/* Bottom menu
+	* --------------------------------------- */
+	#infoMenu li a {
+		color: #fff;
+	}
+	</style>
+
+	<!--[if IE]>
+		<script type="text/javascript">
+			 var console = { log: function() {} };
+		</script>
+	<![endif]-->
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+
+	<script type="text/javascript" src="jquery.slimscroll.min.js"></script>
+
+	<script type="text/javascript" src="jquery.fullPage.js"></script>
+	<script type="text/javascript" src="examples.js"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$('#fullpage').fullpage({
+				anchors: ['firstPage', 'secondPage', '3rdPage'],
+				sectionsColor: ['#fff', '#ddd', '#1fb8ef'],
+				navigation: true,
+				navigationPosition: 'right',
+				navigationTooltips: ['First page', 'Second page', 'Third and last page']
+			});
+		});
+	</script>
+
+
+
+
+	<style>
+	div#section0 {
+		width: 100%;
+	}
+	div#section0.section.fp-section.fp-table, div#section0.section.fp-section.active.fp-table.fp-completely {
+		background: url("../slide_1.png") no-repeat center center fixed;
+		background-size: cover; -moz-background-size: cover; -o-background-size: cover;
+	}
+	</style>
+
+
+
+
+</head>
+<body>
+
+	<div id="header">
+
+		<hr>
+
+							<div class="container">
+
+								<nav>
+										<ul class="nav-side" style="float: right;">
+												<li role="presentation">박수범님<span class="welcome"><br></span>&nbsp;환영합니다.</li>
+												<li class="help" role=""><a href="#">?도움말</a></li>
+										</ul>
+
+								<table class="dimigoin-logo">
+									<tbody>
+											<tr>
+													<td class="hamburger-icon"><a href="#" class="mobile-button" style="font-size: 24px; color: rgba(0, 0, 0, 0.7);"><span class="glyphicon glyphicon-menu-hamburger"></span></a></td>
+													<td class="nav-img"><img src="../Dimigoin/images/dimigo-logo.png" alt="DIMIGOIN"></img></td>
+													<td class="nav-text"><strong>한국디지털미디어고등학교</strong><br>교내 인트라넷 서비스</td>
+													<td>
+														<ul class="nav">
+															<li><a href="#" class="active">홈</a></li>
+															<li><a href="#">신청</a></li>
+															<li><a href="#">커뮤니티</a></li>
+															<li><a href="#">기숙사</a></li>
+															<li><a href="#">서비스</a></li>
+														</ul>
+													</td>
+											</tr>
+									</tbody>
+								</table>
+
+
+								<ul class="nav-mobile">
+									<li><a href="#">홈</a></li>
+									<li><a href="#">신청</a></li>
+									<li><a href="#">커뮤니티</a></li>
+									<li><a href="#">기숙사</a></li>
+									<li><a href="#">서비스</a></li>
+								</ul>
+
+								<div class="menu-back"><div>
+
+								</nav>
+
+							</div>
+
+		</div>
+
+<div id="fullpage">
+
+	<div class="section" id="section0">
+		<div class="main_silde">
+			<div class="background">
+				<ul>
+					<li class="back_slide" id="slide-1"></li>
+					<li class="back_slide" id="slide-2"></li>
+					<li class="back_slide" id="slide-3"></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<div class="section" id="section1">
+			<div class="intro">
+				<h1>디미마켓</h1>
+				<p>
+					이건 뭐...
+				</p>
+			</div>
+	</div>
+
+	<div class="section" id="section2">
+		<div class="intro">
+			<h1>Dwitter</h1>
+		</div>
+	</div>
+</div>
+
+
+</body>
+</html>

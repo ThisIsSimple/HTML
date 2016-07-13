@@ -41,3 +41,7 @@ body {
 #contacts .contact-link:hover {
     color: #EEE;
 }
+
+div.section.center-align {
+  padding: 0;
+}

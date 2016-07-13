@@ -91,11 +91,14 @@ nav a {
 #header {
   position: fixed;
   width: 100%;
+  z-index: 9;
+  background-color: #fff;
+  box-shadow: 0px 1px 7px rgba(0, 0, 0, 0.3);
 }
 
 hr {
-  margin: 0px;
   margin-top: -1px;
+  margin-bottom: 0;
   height: 2px;
   background-color: #fb007f;
 }
@@ -113,8 +116,8 @@ hr {
   magin: 0; padding: 0;
 }
 
-.slide { width: 100%; }
-.slide.active { min-height: 927px; }
+.back_slide { width: 100%; }
+.back_slide.active { min-height: 927px; }
 
 li#slide-1.active { background: url("slide_1.png") no-repeat center center fixed; background-size: cover; -moz-background-size: cover; -o-background-size: cover; }
 li#slide-2.active { background: url("slide_2.jpg") no-repeat center center fixed; background-size: cover; -moz-background-size: cover; -o-background-size: cover; }
