@@ -2,6 +2,13 @@
 
 html { background-color: #ddd;}
 
+html li {
+  list-style-type: inline;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
 /* 모바일 속성들을 설정합니다. */
 
 .nav-mobile {
@@ -122,10 +129,6 @@ li#slide-3.active { background: url("slide_3.jpg") no-repeat center center fixed
 
 @media screen and (max-width:1015px) {
 
-  li#slide-1.active { background: url("slide_1.png") no-repeat center center fixed; background-size: cover; -moz-background-size: cover; -o-background-size: cover; }
-  li#slide-2.active { background: url("slide_2.jpg") no-repeat center center fixed; background-size: cover; -moz-background-size: cover; -o-background-size: cover; }
-  li#slide-3.active { background: url("slide_3.jpg") no-repeat center center fixed; background-size: cover; -moz-background-size: cover; -o-background-size: cover; }
-
   table.dimigoin-logo .nav-text, .nav { display: none; }
   table.dimigoin-logo .nav-img { position: fixed; left: 0; right: 0; text-align: center; z-index: -1}
   .nav-img img { margin: 0; height: 33px;}
@@ -140,25 +143,5 @@ li#slide-3.active { background: url("slide_3.jpg") no-repeat center center fixed
 
 @media screen and (max-width: 758px) {
 
-  li#slide-1.active { background: url("slide_1.png") no-repeat center center fixed; background-size: cover; -moz-background-size: cover; -o-background-size: cover; }
-  li#slide-2.active { background: url("slide_2.jpg") no-repeat center center fixed; background-size: cover; -moz-background-size: cover; -o-background-size: cover; }
-  li#slide-3.active { background: url("slide_3.jpg") no-repeat center center fixed; background-size: cover; -moz-background-size: cover; -o-background-size: cover; }
-
   .container { width: 85%; }
-}
-
-@media screen and (max-width:640px) {
-
-  li#slide-1.active { background: url("slide_1.png") no-repeat center center fixed; background-size: cover; -moz-background-size: cover; -o-background-size: cover; }
-  li#slide-2.active { background: url("slide_2.jpg") no-repeat center center fixed; background-size: cover; -moz-background-size: cover; -o-background-size: cover; }
-  li#slide-3.active { background: url("slide_3.jpg") no-repeat center center fixed; background-size: cover; -moz-background-size: cover; -o-background-size: cover; }
-}
-
-/* main의 스타일을 지정합니다. */
-
-html li {
-  list-style-type: inline;
-  list-style: none;
-  margin: 0;
-  padding: 0;
 }
