@@ -24,10 +24,6 @@ html { background-color: #ddd;}
   display: block;
 }
 
-.nav-mobile a.active {
-
-}
-
 .nav-mobile a:hover {
   background-color: rgba(0, 0, 0, 0.05);
   text-decoration: none;
@@ -117,7 +113,7 @@ hr {
 }
 
 .back_slide { width: 100%; }
-.back_slide.active { min-height: 927px; }
+.back_slide.active { height: 927px; }
 
 li#slide-1.active { background: url("slide_1.png") no-repeat center center fixed; background-size: cover; -moz-background-size: cover; -o-background-size: cover; }
 li#slide-2.active { background: url("slide_2.jpg") no-repeat center center fixed; background-size: cover; -moz-background-size: cover; -o-background-size: cover; }
@@ -125,8 +121,6 @@ li#slide-3.active { background: url("slide_3.jpg") no-repeat center center fixed
 
 
 @media screen and (max-width:1015px) {
-
-  /*.slide.active { min-height: 499px; }*/
 
   li#slide-1.active { background: url("slide_1.png") no-repeat center center fixed; background-size: cover; -moz-background-size: cover; -o-background-size: cover; }
   li#slide-2.active { background: url("slide_2.jpg") no-repeat center center fixed; background-size: cover; -moz-background-size: cover; -o-background-size: cover; }
@@ -138,19 +132,13 @@ li#slide-3.active { background: url("slide_3.jpg") no-repeat center center fixed
   table.dimigoin-logo .hamburger-icon { width: 49px !important; }
   .nav-side { padding: 0; font-size: 12px; text-align: right; }
   .help { display: none; }
-  .welcome {
-    display: flex;
-    line-height: 3px;
-  }
-
+  .welcome { display: flex; line-height: 0px; }
   .container { width: 80%; }
 }
 
 @media screen and (min-width: 1016px) { .mobile-button { display: none; } }
 
 @media screen and (max-width: 758px) {
-
-  /*.slide.active { min-height: 520px; }*/
 
   li#slide-1.active { background: url("slide_1.png") no-repeat center center fixed; background-size: cover; -moz-background-size: cover; -o-background-size: cover; }
   li#slide-2.active { background: url("slide_2.jpg") no-repeat center center fixed; background-size: cover; -moz-background-size: cover; -o-background-size: cover; }
@@ -160,8 +148,6 @@ li#slide-3.active { background: url("slide_3.jpg") no-repeat center center fixed
 }
 
 @media screen and (max-width:640px) {
-
-  /*.slide.active { min-height: 366px; }*/
 
   li#slide-1.active { background: url("slide_1.png") no-repeat center center fixed; background-size: cover; -moz-background-size: cover; -o-background-size: cover; }
   li#slide-2.active { background: url("slide_2.jpg") no-repeat center center fixed; background-size: cover; -moz-background-size: cover; -o-background-size: cover; }
