@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>디미고인</title>
+	<link charset="utf-8" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
+	<link rel="stylesheet" type="text/css" href="css/index.css" media="screen" title="no title" charset="utf-8">
+
+	<script src="https://code.jquery.com/jquery-3.0.0.min.js" integrity="sha256-JmvOoLtYsmqlsWxa7mDSLMwa6dZ9rrIdtrrVYRnDRH0=" crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/ui/1.11.1/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="js/jquery.slimscroll.min.js"></script>
+	<script type="text/javascript" src="js/jquery.fullPage.js"></script>
+
+		<script src="js/index.js"></script>
+
+	<style>
+	h1{
+		font-size: 5em;
+		font-family: arial, helvetica;
+		color: #fff;
+		margin:0;
+	}
+	.intro p{
+		color: #fff;
+	}
+	.section{
+		text-align:center;
+		vertical-align: middle;
+	}
+	</style>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$('#fullpage').fullpage({
+				anchors: ['HOME', 'DimiMarket', 'Dwitter'],
+				sectionsColor: ['#fff', '#ddd', '#1fb8ef'],
+				navigation: true,
+				navigationPosition: 'right',
+				navigationTooltips: ['HOME', '디미마켓', 'Dwitter']
+			});
+		});
+	</script>
+
+
+
+
+
+</head>
+<body>
+
+	<div id="header">
+
+		<hr>
+
+							<div class="container">
+
+								<nav>
+										<ul class="nav-side" style="float: right;">
+												<li role="presentation">박수범님<span class="welcome"><br></span>&nbsp;환영합니다.</li>
+												<li class="help" role=""><a href="#">?도움말</a></li>
+										</ul>
+
+								<table class="dimigoin-logo">
+									<tbody>
+											<tr>
+													<td class="hamburger-icon"><a href="#" class="mobile-button" style="font-size: 24px; color: rgba(0, 0, 0, 0.7);"><span class="glyphicon glyphicon-menu-hamburger"></span></a></td>
+													<td class="nav-img"><img src="images/dimigo-logo.png" alt="DIMIGOIN"></img></td>
+													<td class="nav-text"><strong>한국디지털미디어고등학교</strong><br>교내 인트라넷 서비스</td>
+													<td>
+														<ul class="nav">
+															<li><a href="#" class="active">홈</a></li>
+															<li><a href="#">신청</a></li>
+															<li><a href="#">커뮤니티</a></li>
+															<li><a href="#">기숙사</a></li>
+															<li><a href="#">서비스</a></li>
+														</ul>
+													</td>
+											</tr>
+									</tbody>
+								</table>
+
+
+								<ul class="nav-mobile">
+									<li><a href="#">홈</a></li>
+									<li><a href="#">신청</a></li>
+									<li><a href="#">커뮤니티</a></li>
+									<li><a href="#">기숙사</a></li>
+									<li><a href="#">서비스</a></li>
+								</ul>
+
+								<div class="menu-back"><div>
+
+								</nav>
+
+							</div>
+
+		</div>
+
+<div id="fullpage">
+
+	<div class="section" id="section0">
+		<div class="main_silde">
+			<div class="background">
+				<ul>
+					<li class="back_slide" id="slide-1"></li>
+					<li class="back_slide" id="slide-2"></li>
+					<li class="back_slide" id="slide-3"></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<div class="section" id="section1">
+			<div class="intro">
+				<h1>디미마켓</h1>
+				<p>
+					이건 뭐...
+				</p>
+			</div>
+	</div>
+
+	<div class="section" id="section2">
+		<div class="intro">
+			<h1>Dwitter</h1>
+		</div>
+	</div>
+</div>
+
+
+</body>
+</html>

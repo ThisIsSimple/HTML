@@ -18,7 +18,7 @@ html li {
   width: 200px;
   height: 100%;
   background-color: white;
-  z-index: 999;
+  z-index: 99;
 
   line-height: 50px;
   vertical-align: middle;
@@ -57,7 +57,7 @@ nav {
 }
 
 nav a {
-  color: #c4c4c4;
+  color: #aaa;
   font-weight: bold;
 }
 
@@ -84,7 +84,7 @@ nav a {
 }
 
 .nav>li a:hover {
-  color: #c4c4c4;
+  color: #aaa;
   border-bottom: 3px solid #fb007f;
   background-color: transparent !important;
 }
@@ -143,5 +143,5 @@ li#slide-3.active { background: url("slide_3.jpg") no-repeat center center fixed
 
 @media screen and (max-width: 758px) {
 
-  .container { width: 85%; }
+  .container { width: 90%; }
 }
