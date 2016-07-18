@@ -35,18 +35,14 @@
 	<script type="text/javascript">
 		$(document).ready(function() {
 			$('#fullpage').fullpage({
-				anchors: ['HOME', 'DimiMarket', 'Dwitter'],
-				sectionsColor: ['#fff', '#ddd', '#1fb8ef'],
+				anchors: ['HOME', 'Dwitter', 'Dimimarket', 'Schedule'],
+				sectionsColor: ['#fff', '#1fb8ef', '#ddd', '#ddd'],
 				navigation: true,
 				navigationPosition: 'right',
-				navigationTooltips: ['HOME', '디미마켓', 'Dwitter']
+				navigationTooltips: ['HOME', 'Dis', '디미마켓', '학사일정']
 			});
 		});
 	</script>
-
-
-
-
 
 </head>
 <body>
@@ -95,13 +91,12 @@
 
 								</nav>
 
-							</div>
-
+								</div>
 		</div>
 
 <div id="fullpage">
 
-	<div class="section" id="section0">
+	<div class="section" id="section0" style="transform: translate3d(0px, 0px, 0px) !important;">
 		<div class="main_silde">
 			<div class="background">
 				<ul>
@@ -125,6 +120,12 @@
 	<div class="section" id="section2">
 		<div class="intro">
 			<h1>Dwitter</h1>
+		</div>
+	</div>
+
+	<div class="section" id="section3">
+		<div class="intro">
+			<h1>학사일정이라네</h1>
 		</div>
 	</div>
 </div>

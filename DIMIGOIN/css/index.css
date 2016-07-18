@@ -75,6 +75,9 @@ nav a {
   border-bottom: 3px solid #fb007f;
   font-weight: bold;
   color: #000;
+  background-color: transparent !important;
+  -o-background-color: transparent !important;
+  -moz-background-color: transparent !important;
 }
 
 .nav>li a.active:hover {
@@ -87,6 +90,8 @@ nav a {
   color: #c4c4c4;
   border-bottom: 3px solid #fb007f;
   background-color: transparent !important;
+  -o-background-color: transparent !important;
+  -moz-background-color: transparent !important;
 }
 
 /* 헤더의 스타일을 지정합니다. */
@@ -127,7 +132,7 @@ li#slide-2.active { background: url("../images/slide_2.jpg") no-repeat center ce
 li#slide-3.active { background: url("../images/slide_3.jpg") no-repeat center center fixed; background-size: cover; -moz-background-size: cover; -o-background-size: cover; }
 
 
-@media screen and (max-width:1015px) {
+@media screen and (max-width: 700px) {
 
   table.dimigoin-logo .nav-text, .nav { display: none; }
   table.dimigoin-logo .nav-img { position: fixed; left: 0; right: 0; text-align: center; z-index: -1}
@@ -139,9 +144,9 @@ li#slide-3.active { background: url("../images/slide_3.jpg") no-repeat center ce
   .container { width: 80%; }
 }
 
-@media screen and (min-width: 1016px) { .mobile-button { display: none; } }
+@media screen and (min-width: 701px) { .mobile-button { display: none; } }
 
-@media screen and (max-width: 758px) {
+@media screen and (max-width: 700px) {
 
   .container { width: 85%; }
 }
