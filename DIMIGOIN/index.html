@@ -35,11 +35,11 @@
 	<script type="text/javascript">
 		$(document).ready(function() {
 			$('#fullpage').fullpage({
-				anchors: ['HOME', 'Dwitter', 'Dimimarket', 'Schedule'],
-				sectionsColor: ['#fff', '#1fb8ef', '#ddd', '#ddd'],
+				anchors: ['HOME', 'Echo', 'Dimimarket', 'Schedule'],
+				sectionsColor: ['#fff', '#9db443', '#ddd', '#ddd'],
 				navigation: true,
 				navigationPosition: 'right',
-				navigationTooltips: ['HOME', 'Dis', '디미마켓', '학사일정']
+				navigationTooltips: ['HOME', 'Echo', '디미마켓', '학사일정']
 			});
 		});
 	</script>
@@ -96,7 +96,7 @@
 
 <div id="fullpage">
 
-	<div class="section" id="section0" style="transform: translate3d(0px, 0px, 0px) !important;">
+	<div class="section" id="section0">
 		<div class="main_silde">
 			<div class="background">
 				<ul>
@@ -109,12 +109,37 @@
 	</div>
 
 	<div class="section" id="section1">
-			<div class="intro">
-				<h1>디미마켓</h1>
-				<p>
-					이건 뭐...
-				</p>
+		<div class="container" style="vertical-align: top;">
+			<div style="text-align: left; "><h1 style="font-size: 56px;">Echo</h1></div>
+
+    	<div class="input">
+				<textarea id="status" placeholder="오늘 무슨 일이 있었나요?"></textarea>
+			</div><!-- /input-group -->
+
+			<div class="panel" id="send">
+				<div class="btn-group">
+  				<button type="button" class="btn btn-default btn-sm">공개 대상</button>
+  				<button type="button" class="btn btn-default btn-sm dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    				<span class="caret"></span>
+    				<span class="sr-only">Toggle Dropdown</span>
+  				</button>
+  				<ul class="dropdown-menu">
+    				<li><a href="#">Action</a></li>
+    				<li><a href="#">Another action</a></li>
+    				<li><a href="#">Something else here</a></li>
+    				<li role="separator" class="divider"></li>
+    				<li><a href="#">비공개(나만 보기)</a></li>
+  				</ul>
+				</div>
+				<button type="button" class="btn btn-primary btn-sm">게시하기</button>
 			</div>
+
+			<div class="panel" id="">
+			</div>
+
+			<div class="panel" id="">
+			</div>
+		</div>
 	</div>
 
 	<div class="section" id="section2">
