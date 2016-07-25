@@ -30,4 +30,14 @@ $(document).ready(function(){
     $('.nav li a.active, .nav-mobile li a.active').removeClass('active');
     $(this).addClass('active');
   });
+
+//fullpage  관련 설정
+    $('#fullpage').fullpage({
+      anchors: ['HOME', 'Echo', 'Notice', 'Schedule'],
+      sectionsColor: ['#fff', '#04d1d7', '#fff', '#fff'],
+      navigation: true,
+      navigationPosition: 'right',
+      navigationTooltips: ['HOME', 'Echo', '디미마켓', '학사일정']
+    });
+
 });

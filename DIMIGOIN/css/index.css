@@ -1,3 +1,23 @@
+/* 웹폰트 사용 */
+
+@font-face {
+
+    font-family:'NanumGothic';
+
+    src: url('images/NanumGothic.eot');
+
+    src: url('images/NanumGothic.eot?#iefix') format('embedded-opentype'),
+
+         url('images/NanumGothic.woff') format('woff'),
+
+         url('images/NanumGothic.ttf') format('truetype');
+
+    font-weight: normal;
+
+    font-style: normal;
+
+}
+
 /* 기본적인 것들의 스타일을 지정합니다. */
 
 html { background-color: #ddd; }
@@ -9,12 +29,39 @@ html li {
   padding: 0;
 }
 
+h1 {
+  font-size: 3em;
+  font-family: 'NanumGothic', arial, helvetica;
+  font-weight: bold;
+  color: #fff;
+  margin-top: 0px;
+  margin-bottom: 12px;
+}
+
+h1.white-back {
+  font-size: 2em;
+  font-weight: bold;
+  color: #7A7A7A;
+  margin-top: 12px;
+}
+
+/* 사용자 profile 설정입니다. */
+
+.profile {
+
+}
+
+.profile-img {
+
+}
+
 /* Echo */
 
 #status {
   width: 100%;
   height: 150px;
   border: 0px;
+  border-radius: 0px;
   padding: 11px;
   resize: none;
   overflow-y: auto;
@@ -22,21 +69,33 @@ html li {
 }
 
 #send {
-  padding-right: 20px;
+  padding-right: 10px;
   text-align: right;
 }
 
 .fp-tableCell {
   vertical-align: top;
-  padding-top: 100px;
+  padding-top: 75px;
+}
+
+.echo-header {
+  text-align: right;
+  margin-top: 0px;
+}
+
+.echo-header, .echo-header>a {
+  font-weight: bold;
+  color: #fff;
 }
 
 .input {
   margin-bottom: 0;
   height: 150px;
+  border: 1px solid #ddd;
 }
 
 .panel {
+  border: 1px solid #ddd;
   padding: 5px;
   background-color: #fff;
   border-radius: 0px;
@@ -112,7 +171,7 @@ nav a { color: #c4c4c4; font-weight: bold; }
 }
 
 .nav>li a:hover {
-  color: #c4c4c4;
+  color: #000;
   border-bottom: 3px solid #fb007f;
   background-color: transparent !important;
   -o-background-color: transparent !important;

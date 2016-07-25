@@ -9,40 +9,13 @@
 	<link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
 	<link rel="stylesheet" type="text/css" href="css/index.css" media="screen" title="no title" charset="utf-8">
 
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 	<script src="https://code.jquery.com/jquery-3.0.0.min.js" integrity="sha256-JmvOoLtYsmqlsWxa7mDSLMwa6dZ9rrIdtrrVYRnDRH0=" crossorigin="anonymous"></script>
 	<script src="https://code.jquery.com/ui/1.11.1/jquery-ui.min.js"></script>
 	<script type="text/javascript" src="js/jquery.slimscroll.min.js"></script>
 	<script type="text/javascript" src="js/jquery.fullPage.js"></script>
 
-		<script src="js/index.js"></script>
-
-	<style>
-	h1{
-		font-size: 5em;
-		font-family: arial, helvetica;
-		color: #fff;
-		margin:0;
-	}
-	.intro p{
-		color: #fff;
-	}
-	.section{
-		text-align:center;
-		vertical-align: middle;
-	}
-	</style>
-
-	<script type="text/javascript">
-		$(document).ready(function() {
-			$('#fullpage').fullpage({
-				anchors: ['HOME', 'Echo', 'Dimimarket', 'Schedule'],
-				sectionsColor: ['#fff', '#04d1d7', '#ddd', '#ddd'],
-				navigation: true,
-				navigationPosition: 'right',
-				navigationTooltips: ['HOME', 'Echo', '디미마켓', '학사일정']
-			});
-		});
-	</script>
+	<script src="js/index.js"></script>
 
 </head>
 <body>
@@ -109,8 +82,9 @@
 	</div>
 
 	<div class="section" id="section1">
-		<div class="container" style="vertical-align: top;">
-			<div style="text-align: left; "><h1 style="font-size: 56px;">Echo</h1></div>
+		<div class="container">
+			<div class="echo-header"><a href="#">외치기</a>&nbsp;|&nbsp;<a href="#">방문자&nbsp;99명</a></div>
+			<div><h1>Echo</h1></div>
 
     	<div class="input">
 				<textarea id="status" placeholder="오늘 무슨 일이 있었나요?"></textarea>
@@ -143,14 +117,41 @@
 	</div>
 
 	<div class="section" id="section2">
-		<div class="intro">
-			<h1>Dwitter</h1>
+		<div class="container">
+			<h1 class="white-back">공지사항</h1>
+
+			<div class="input">
+				<textarea id="status" placeholder="선생님만 작성하실 수 있습니다."></textarea>
+			</div>
+
+			<div class="panel" id="send">
+				<div class="btn-group">
+  				<button type="button" class="btn btn-default btn-sm">공지 대상</button>
+  				<button type="button" class="btn btn-default btn-sm dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    				<span class="caret"></span>
+    				<span class="sr-only">Toggle Dropdown</span>
+  				</button>
+  				<ul class="dropdown-menu">
+    				<li><a href="#">1학년</a></li>
+    				<li><a href="#">2학년</a></li>
+    				<li><a href="#">3학년</a></li>
+    				<li role="separator" class="divider"></li>
+    				<li><a href="#">학년 전체</a></li>
+  				</ul>
+				</div>
+				<button type="button" class="btn btn-primary btn-sm">게시하기</button>
+			</div>
+
+			<div class="panel">
+				asdfasdfsa
+			</div>
+
 		</div>
 	</div>
 
 	<div class="section" id="section3">
-		<div class="intro">
-			<h1>학사일정이라네</h1>
+		<div class="container">
+			<h1 class="white-back">시간표</h1>
 		</div>
 	</div>
 </div>
